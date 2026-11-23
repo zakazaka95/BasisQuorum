@@ -1,0 +1,61 @@
+{
+  "name": "basisquorum",
+  "checkedAt": "2026-11-23T16:19:26.422Z",
+  "declinedStage": "revision-two-assess",
+  "observedRpcError": "eth_sendRawTransaction: Rate limit exceeded: 30 requests per minute",
+  "previousKnownTransactionHash": "0x8d79df368ec11f143eec1dde2c7d5e23977a016aad9462aabf4af4a48bea69d8",
+  "previousKnownTransactionNonce": 3,
+  "confirmedNextNonce": 4,
+  "pendingNextNonce": 4,
+  "noUnknownAcceptedTransaction": true,
+  "state": {
+    "attempts": 0,
+    "certificate": null,
+    "receipt": null,
+    "receipt_hash": "",
+    "snapshot": {
+      "collection_hash": "ed2f4972565b9b3f4ad8133ab2b9fbc388f240c86e51165355e56e67fc439a8b",
+      "collection_id": 0,
+      "created_at": 1795450535,
+      "reports": [
+        {
+          "author": "0xffdb35716b87a4dafd2a08a73b5bcdf950abbfd4",
+          "basis_text": "Synthetic execution A produced output A in its own fresh run. Output A is not copied from another report or execution. No other output is used.",
+          "collection_hash": "ed2f4972565b9b3f4ad8133ab2b9fbc388f240c86e51165355e56e67fc439a8b",
+          "collection_id": 0,
+          "created_at": 1795450519,
+          "id": 0,
+          "report_text": "Synthetic fixture report A: execution A records parser P rejecting malformed token X."
+        },
+        {
+          "author": "0xffdb35716b87a4dafd2a08a73b5bcdf950abbfd4",
+          "basis_text": "Synthetic execution B produced output B in its own fresh run. Output B is not copied from another report or execution. No other output is used.",
+          "collection_hash": "ed2f4972565b9b3f4ad8133ab2b9fbc388f240c86e51165355e56e67fc439a8b",
+          "collection_id": 0,
+          "created_at": 1795450535,
+          "id": 1,
+          "report_text": "Synthetic fixture report B: execution B records parser P rejecting malformed token X."
+        }
+      ],
+      "revision": 2,
+      "spec": {
+        "claim": "In this synthetic fixture, parser P rejects malformed token X.",
+        "id": 0,
+        "independence_standard": "Count separately executed test runs with separate produced outputs as distinct. The same claim, code or test specification does not alone mean a shared run. A report reusing a run's produced output shares its basis with that run. A combined analysis reusing two runs' outputs overlaps both. Unknown separation is uncertain. This is declared lineage accounting only.",
+        "owner": "0xffdb35716b87a4dafd2a08a73b5bcdf950abbfd4",
+        "quorum": 2,
+        "reporters": [
+          "0xffdb35716b87a4dafd2a08a73b5bcdf950abbfd4"
+        ],
+        "title": "Synthetic parser evidence quorum"
+      }
+    },
+    "snapshot_hash": "52ee8b09ca3bf1c165ae55ed429c9a013123acf6cdf725e3a11dfcaac627630a",
+    "status": "UNASSESSED"
+  },
+  "recovery": "Resume once using stable labels; no receipt/model result exists for the declined call. Only one demo process will run at a time with at least 3500 ms between every RPC fetch.",
+  "chainId": 61997,
+  "contractAddress": "0xdedd9cfd730fa93b7c1Bd7F8D5d0cFC60F505fc3",
+  "sourceSha256": "0983bf98113420a1d0803d1beee09bde48298a655477237ed933f9525a7c60db",
+  "scope": "Pre-hash RPC rate-limit decline, reconciled before a single resumed submission. This record is separate from onchain semantic outcomes and the intentional guard rejection."
+}

@@ -1,0 +1,40 @@
+{
+  "name": "basisquorum",
+  "chainId": 61997,
+  "rpc": "https://studio-dev.genlayer.com/api",
+  "contractAddress": "0xdedd9cfd730fa93b7c1Bd7F8D5d0cFC60F505fc3",
+  "contractUrl": "https://explorer-studio-dev.genlayer.com/address/0xdedd9cfd730fa93b7c1Bd7F8D5d0cFC60F505fc3",
+  "deploymentTxHash": "0xdcfe2fd55f85e76ea19639e8a660a93a62a0fc8a07e57a6dd6e9bd6e0e46c0f8",
+  "deploymentTxUrl": "https://explorer-studio-dev.genlayer.com/tx/0xdcfe2fd55f85e76ea19639e8a660a93a62a0fc8a07e57a6dd6e9bd6e0e46c0f8",
+  "sourceSha256": "0983bf98113420a1d0803d1beee09bde48298a655477237ed933f9525a7c60db",
+  "normalizedLocalSourceSha256": "49d9d773a5f1b81479ea92949ae0dfb24e1ea925f72f7362097b3c3af845bb49",
+  "normalizedDeployedSourceSha256": "49d9d773a5f1b81479ea92949ae0dfb24e1ea925f72f7362097b3c3af845bb49",
+  "sourceComparison": "Complete source matches after CRLF/LF and edge-whitespace normalization",
+  "completeDeployedSourceMatches": true,
+  "sourceCommit": "088255dd60eef3bbb68a18c46eea14944dcfaf00",
+  "repository": "https://github.com/zakazaka95/BasisQuorum",
+  "immutableSourceUrl": "https://github.com/zakazaka95/BasisQuorum/blob/088255dd60eef3bbb68a18c46eea14944dcfaf00/BasisQuorum.py",
+  "sourceHeader": [
+    "# v0.4.0",
+    "# { \"Depends\": \"py-genlayer:kzybg95x1gn21dw72m7hyg0maaap04n4nx55j9yt6fkdqxtz6bz0\" }"
+  ],
+  "sourceVersion": "1.0.0",
+  "transactionValue": "0",
+  "normalConsensus": true,
+  "ownerAddress": "0xffDb35716b87a4DAfD2A08a73b5bcdF950abbFd4",
+  "verifiedStats": {
+    "assessments": 2,
+    "collections": 1,
+    "contract_version": "1.0.0",
+    "max_attempts": 3,
+    "max_basis_chars": 500,
+    "max_prompt_bytes": 65000,
+    "max_prompt_chars": 50000,
+    "max_report_chars": 500,
+    "max_reporters": 8,
+    "max_reports": 6,
+    "receipt_schema": "basisquorum-v1",
+    "reports": 3
+  },
+  "migration": "Only two runner header lines changed from prepared v0.3 to official v0.4; semantic source body unchanged."
+}

@@ -1,0 +1,132 @@
+{
+  "name": "basisquorum",
+  "chainId": 61997,
+  "contractAddress": "0xdedd9cfd730fa93b7c1Bd7F8D5d0cFC60F505fc3",
+  "sourceSha256": "0983bf98113420a1d0803d1beee09bde48298a655477237ed933f9525a7c60db",
+  "transactions": [
+    {
+      "stage": "deployment",
+      "hash": "0xdcfe2fd55f85e76ea19639e8a660a93a62a0fc8a07e57a6dd6e9bd6e0e46c0f8",
+      "successful": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xdcfe2fd55f85e76ea19639e8a660a93a62a0fc8a07e57a6dd6e9bd6e0e46c0f8",
+      "finalization": {
+        "hash": "0xdcfe2fd55f85e76ea19639e8a660a93a62a0fc8a07e57a6dd6e9bd6e0e46c0f8",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xdcfe2fd55f85e76ea19639e8a660a93a62a0fc8a07e57a6dd6e9bd6e0e46c0f8"
+      }
+    },
+    {
+      "stage": "collection-open",
+      "method": "open_collection",
+      "hash": "0x37c19642669d17c674612183e4cc8dd623ea2255538016f667595ff809e2f170",
+      "successful": true,
+      "intentionalGuardRejection": false,
+      "expected_rejection": false,
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x37c19642669d17c674612183e4cc8dd623ea2255538016f667595ff809e2f170",
+      "finalization": {
+        "hash": "0x37c19642669d17c674612183e4cc8dd623ea2255538016f667595ff809e2f170",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x37c19642669d17c674612183e4cc8dd623ea2255538016f667595ff809e2f170"
+      }
+    },
+    {
+      "stage": "report-a-append",
+      "method": "append_report",
+      "hash": "0x4775783ab41465540211bdd8ecca2011d3486adeb60ae2f4f5d0c6ec78289685",
+      "successful": true,
+      "intentionalGuardRejection": false,
+      "expected_rejection": false,
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x4775783ab41465540211bdd8ecca2011d3486adeb60ae2f4f5d0c6ec78289685",
+      "finalization": {
+        "hash": "0x4775783ab41465540211bdd8ecca2011d3486adeb60ae2f4f5d0c6ec78289685",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x4775783ab41465540211bdd8ecca2011d3486adeb60ae2f4f5d0c6ec78289685"
+      }
+    },
+    {
+      "stage": "report-b-append",
+      "method": "append_report",
+      "hash": "0x8d79df368ec11f143eec1dde2c7d5e23977a016aad9462aabf4af4a48bea69d8",
+      "successful": true,
+      "intentionalGuardRejection": false,
+      "expected_rejection": false,
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x8d79df368ec11f143eec1dde2c7d5e23977a016aad9462aabf4af4a48bea69d8",
+      "finalization": {
+        "hash": "0x8d79df368ec11f143eec1dde2c7d5e23977a016aad9462aabf4af4a48bea69d8",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x8d79df368ec11f143eec1dde2c7d5e23977a016aad9462aabf4af4a48bea69d8"
+      }
+    },
+    {
+      "stage": "revision-two-assess",
+      "method": "assess_revision",
+      "hash": "0x150d756a90fc03f9f31cfe3a99b75f9b2922fa60320c69b73f5ea199c25bb822",
+      "successful": true,
+      "intentionalGuardRejection": false,
+      "expected_rejection": false,
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x150d756a90fc03f9f31cfe3a99b75f9b2922fa60320c69b73f5ea199c25bb822",
+      "finalization": {
+        "hash": "0x150d756a90fc03f9f31cfe3a99b75f9b2922fa60320c69b73f5ea199c25bb822",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x150d756a90fc03f9f31cfe3a99b75f9b2922fa60320c69b73f5ea199c25bb822"
+      }
+    },
+    {
+      "stage": "report-c-append",
+      "method": "append_report",
+      "hash": "0xd75cf1a834cf28ec1fed52d60fff33c5e2fa9a62517693abf79ef11f331a375c",
+      "successful": true,
+      "intentionalGuardRejection": false,
+      "expected_rejection": false,
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xd75cf1a834cf28ec1fed52d60fff33c5e2fa9a62517693abf79ef11f331a375c",
+      "finalization": {
+        "hash": "0xd75cf1a834cf28ec1fed52d60fff33c5e2fa9a62517693abf79ef11f331a375c",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xd75cf1a834cf28ec1fed52d60fff33c5e2fa9a62517693abf79ef11f331a375c"
+      }
+    },
+    {
+      "stage": "revision-three-assess",
+      "method": "assess_revision",
+      "hash": "0x7a96250484140977bd745cf2140bd439e0503589e042d93a1f1412f096790a29",
+      "successful": true,
+      "intentionalGuardRejection": false,
+      "expected_rejection": false,
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x7a96250484140977bd745cf2140bd439e0503589e042d93a1f1412f096790a29",
+      "finalization": {
+        "hash": "0x7a96250484140977bd745cf2140bd439e0503589e042d93a1f1412f096790a29",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x7a96250484140977bd745cf2140bd439e0503589e042d93a1f1412f096790a29"
+      }
+    },
+    {
+      "stage": "collection-retire",
+      "method": "retire_collection",
+      "hash": "0x35fbec6e32b48027bc4cd86cdb50b7b497e044c3dee4bcf309df9d58f89bb53e",
+      "successful": true,
+      "intentionalGuardRejection": false,
+      "expected_rejection": false,
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x35fbec6e32b48027bc4cd86cdb50b7b497e044c3dee4bcf309df9d58f89bb53e",
+      "finalization": {
+        "hash": "0x35fbec6e32b48027bc4cd86cdb50b7b497e044c3dee4bcf309df9d58f89bb53e",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x35fbec6e32b48027bc4cd86cdb50b7b497e044c3dee4bcf309df9d58f89bb53e"
+      }
+    }
+  ]
+}

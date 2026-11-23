@@ -1,0 +1,169 @@
+{
+  "name": "basisquorum",
+  "checkedAt": "2026-11-23T16:10:56.664Z",
+  "rpc": "https://studio-dev.genlayer.com/api",
+  "chainId": 61997,
+  "sourceSha256": "0983bf98113420a1d0803d1beee09bde48298a655477237ed933f9525a7c60db",
+  "schema": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "append_report": {
+        "params": [
+          [
+            "collection_id",
+            "int"
+          ],
+          [
+            "report_text",
+            "string"
+          ],
+          [
+            "basis_text",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      },
+      "assess_revision": {
+        "params": [
+          [
+            "collection_id",
+            "int"
+          ],
+          [
+            "expected_revision",
+            "int"
+          ],
+          [
+            "expected_snapshot_hash",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "dict",
+        "payable": false
+      },
+      "get_attempt": {
+        "params": [
+          [
+            "collection_id",
+            "int"
+          ],
+          [
+            "revision",
+            "int"
+          ],
+          [
+            "attempt",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_collection": {
+        "params": [
+          [
+            "collection_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_current_certificate": {
+        "params": [
+          [
+            "collection_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_report": {
+        "params": [
+          [
+            "report_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_revision": {
+        "params": [
+          [
+            "collection_id",
+            "int"
+          ],
+          [
+            "revision",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_stats": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "open_collection": {
+        "params": [
+          [
+            "title",
+            "string"
+          ],
+          [
+            "claim",
+            "string"
+          ],
+          [
+            "independence_standard",
+            "string"
+          ],
+          [
+            "reporters_json",
+            "string"
+          ],
+          [
+            "quorum",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      },
+      "retire_collection": {
+        "params": [
+          [
+            "collection_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "null",
+        "payable": false
+      }
+    }
+  },
+  "successful": true
+}

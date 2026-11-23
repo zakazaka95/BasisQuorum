@@ -2,7 +2,11 @@
 
 A bounded quorum primitive for **complete declared evidence bases**, so six copied reports do not automatically become six units of support.
 
-**Local preparation only. Not published, deployed or submitted.** The package is held for a later explicit `go`. It contains a standalone contract, a controlled-output local test harness and a future Studio walkthrough. There is no frontend, asset transfer, reputation penalty, live evidence feed or paid action.
+**Published November 23, 2026.** Current native source-schema validation, all 41 controlled-output tests and the source-matched deployment succeeded. Application results are recorded only as observed in [DEPLOYMENT.md](DEPLOYMENT.md). There is no frontend, asset transfer, reputation penalty, live evidence feed or paid action.
+
+The release pins the native-verified v0.4.0 runner. Only the two runner-header lines changed from the archived preparation; the contract body is unchanged. The [immutable contract source](https://github.com/zakazaka95/BasisQuorum/blob/088255dd60eef3bbb68a18c46eea14944dcfaf00/BasisQuorum.py) was independently retrieved and matches the exact released file bytes.
+
+The [live demonstration](evidence/demo-result.json) records a two-unit `SUPPORTED` certificate, its immediate invalidation on bridge append, the expected one-component `NO_QUORUM` result and retirement with historical receipts preserved. All eight transactions succeeded and reached `FINALIZED`.
 
 ## What it records
 
@@ -74,6 +78,6 @@ From this directory:
 python -B -m unittest discover -s . -p test_basisquorum.py -v
 ```
 
-**41 tests passed on 2026-11-08**, using `testsupport.py` as a controlled-output storage/consensus double. The suite covers distinct/shared/transitive/uncertain components, bridge invalidation, contradictory components, symmetric refute quorum, whole-set uncertainty, global IDs, authority, limits, immutable history, retirement, reverse clock, bounded retries and independent disagreement. One test individually mutates **102 receipt leaves**, plus separate added/removed/reordered fields. Six maximum-sized report/basis pairs and maximum claim/standard lengths are parsed back from both independent prompts using astral Unicode and escaped controls, with no silent cutoff. These are local logic tests, not GenVM execution, a live deployment or AI reliability benchmarks.
+**41 controlled-output tests passed on November 8 and were rerun successfully on the released source November 23**, using `testsupport.py` as a storage/consensus double. The suite covers distinct/shared/transitive/uncertain components, bridge invalidation, contradictory components, symmetric refute quorum, whole-set uncertainty, global IDs, authority, limits, immutable history, retirement, reverse clock, bounded retries and independent disagreement. One test individually mutates **102 receipt leaves**, plus separate added/removed/reordered fields. Six maximum-sized report/basis pairs and maximum claim/standard lengths are parsed back from both independent prompts using astral Unicode and escaped controls, with no silent cutoff. These are local logic tests, not GenVM execution, a live deployment or AI reliability benchmarks.
 
-The on-chain file imports no local helper. It pins the recorded `py-genlayer` dependency in its header. Its real Studio compatibility and semantic behavior must still be checked during the later authorized release using `STUDIO-TEST.md`. `DEPLOYMENT.md` records the exact held source fingerprint; `SUBMISSION-PACK.md` contains prepared Portal copy only.
+The on-chain file imports no local helper. It pins the recorded `py-genlayer` dependency in its header. Native source-schema validation, real transaction execution and semantic behavior are separate checks. [STUDIO-TEST.md](STUDIO-TEST.md) provides the reproducible procedure; [DEPLOYMENT.md](DEPLOYMENT.md) records the exact released source fingerprint and observed network results. [SUBMISSION-PACK.md](SUBMISSION-PACK.md) contains the Portal description and matching evidence links.

@@ -1,12 +1,12 @@
-# Future Studio verification: BasisQuorum
+# BasisQuorum reproducible Studio walkthrough
 
-**HOLD. Nothing in this checklist has been run on a live chain. Do not publish, deploy or submit until the user explicitly says `go`.** Use only synthetic technical reports and zero transaction value. Network fees may still apply. Never substitute a prior contract address for this source.
+This is the reproducible procedure. Actual execution results are recorded separately in [DEPLOYMENT.md](DEPLOYMENT.md); an expected branch below is not evidence that it occurred. Use only synthetic technical reports and zero transaction value. Network fees may still apply. Never substitute a prior contract address for this source.
 
 ## Before deployment
 
-1. Check the current official Studio network, compiler and dependency compatibility. The held file has the pinned `# v0.3.0` header and dependency `py-genlayer:babwp9t37jw9g4j2bccgn14g6x7x9s1f7dsmh7emvz735pz4zxa0`; do not silently deploy a different version.
+1. Check the current official Studio network, compiler and dependency compatibility. The release pins `# v0.4.0` and `py-genlayer:kzybg95x1gn21dw72m7hyg0maaap04n4nx55j9yt6fkdqxtz6bz0`; do not silently deploy a different version.
 2. Run the 41 local tests. Verify `BasisQuorum.py` SHA-256 against `DEPLOYMENT.md`. If any source byte changes, rerun the relevant checks, update the fingerprint and repeat the matching-source review.
-3. Publish the complete reviewed code, tests and documentation only when release is authorized. Record an immutable commit link to the exact source and its fingerprint.
+3. Use the complete reviewed code, tests and documentation. Record an immutable commit link to the exact source and its fingerprint.
 4. Deploy the whole standalone `BasisQuorum.py` with no constructor arguments and no attached value. Wait for the actual accepted/final state required by that network. Record deployment transaction and contract address. A submitted transaction alone is not a successful deployment.
 5. Call `get_stats`. Check `contract_version=1.0.0`, `receipt_schema=basisquorum-v1`, `max_reports=6`, `max_reporters=8` and `max_attempts=3`. Confirm initial collection/report/assessment counters are zero.
 
@@ -46,6 +46,14 @@ Immediately, **before assessing the new revision**, `get_current_certificate(C)`
 
 ## Additional branches on fresh collections
 
+The release demonstrated the primary bridge flow and the retirement/history
+branch below. Other bullets remain optional procedures; the local suite covers
+them, but they are not represented as executed network negatives unless an
+actual transaction is recorded in DEPLOYMENT.md. Current-certificate native
+views expose generic `execution failed` on this host; the public proof combines
+that observed rejection with successful adjacent state/history reads rather than
+claiming the provider exposed a specific contract error reason.
+
 - Duplicate the exact basis string through two authorized wallets. Even with semantic `DISTINCT_BASIS`, the receipt's effective link must be `SHARED_BASIS` with reason `IDENTICAL_BASIS_TEXT`; different wallets do not prove independent origin.
 - Use explicitly overlapping declared basis descriptions with different wording and verify shared links when consensus recognizes them. Inspect both the semantic and effective pair lists.
 - Use a clearly conflicting support/refute collection. The expected deterministic outcome, when those stances are agreed, is `CONTESTED` and no certificate.
@@ -56,6 +64,6 @@ Immediately, **before assessing the new revision**, `get_current_certificate(C)`
 
 Local tests cover forced malformed output, independent disagreement, all receipt-leaf tampering, reverse clock and full maximum-source prompt budgets. These controlled cases are not equivalent to inducing all those branches in Studio; do not label them live tests or model benchmarks.
 
-## Evidence to capture after authorized testing
+## Evidence to preserve
 
 Record the exact source commit + SHA-256, Studio network/chain identifier, matching Explorer contract URL, deployment transaction, accepted assessment transaction(s), actual full receipt(s), current revision/hash before and after the bridge and retirement result. Confirm the Explorer source bytes match the submitted source. Add real links to `DEPLOYMENT.md` and the Portal evidence only after they exist. Portal copy must describe the actual demonstrated outcome.
