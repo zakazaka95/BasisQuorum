@@ -37,7 +37,7 @@ separate evidence and no award is claimed.
 | Current versus historical result | Revision 3 has no current certificate; revision 2 remains historical `SUPPORTED` with its exact original certificate |
 | Retirement and history | [Owner retired the collection](https://explorer-studio-dev.genlayer.com/tx/0x35fbec6e32b48027bc4cd86cdb50b7b497e044c3dee4bcf309df9d58f89bb53e); both historical receipts and the original revision 2 certificate remained unchanged |
 | Transaction finality | All eight tracked synthetic transactions successful and `FINALIZED`; complete proof collected November 23 at 16:29:52 UTC |
-| Portal contribution ID / status | Not submitted yet; no award claimed |
+| Portal contribution ID / status | `ca3b605b-2879-458f-a74b-14996e71f5ae` — [Pending review](https://portal.genlayer.foundation/my-submissions?q=BasisQuorum), verified November 23, 2026, with four matching evidence items; no acceptance or award claimed |
 
 ## Minimal runner migration
 
